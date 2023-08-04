@@ -1,0 +1,17 @@
+.lista-menu 
+.lista-menu__titulo,color: var(--laranja);s
+    lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+    display: none;
+position: absolute;
+top: 100%;
+    }
+    .container__botao:checked ~ .lista-menu 
+        display: block;
+        .cabeçalho {
+            background-color: var(--branco);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;   }
